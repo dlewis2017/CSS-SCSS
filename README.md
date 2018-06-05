@@ -1,3 +1,5 @@
+# CSS-SCSS
+
 ## Notes
 
 Responsive Design
@@ -71,4 +73,3 @@ Other
 - inherit on property to force inherit
 - :not sudo-class (`:not(:last-child)` = select everything except last child)
 - Selectors: grab everything that starts with (^), contains (*), or ends with ($)
-# CSS-SCSS
