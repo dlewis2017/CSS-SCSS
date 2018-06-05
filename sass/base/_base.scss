@@ -1,0 +1,16 @@
+/* Negates web browser defaults */
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; //defines what 1rem is
+}
+
+body {
+    box-sizing: border-box;
+}

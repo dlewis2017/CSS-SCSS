@@ -1,0 +1,16 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Responsive Design - Fluid layout - media queries - responsive images - correct units - desktop-first vs mobile-first",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "nodemon -e scss -x \"npm run compile:sass\"",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "David",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.5"
+  }
+}
