@@ -2,6 +2,10 @@
 
 Udemy course: https://www.udemy.com/advanced-css-and-sass/
 
+## Downloads 
+
+- (Linea)[http://linea.io/] for fonts; grab `_basic/_ICONFONTS/fonts` and `_basic/_ICONFONTS/styles.css (which should be renamed to icon-font.css)`. Move both in css folder of project directory.
+
 ## Notes
 
 Responsive Design
@@ -71,7 +75,12 @@ Emmet extension VSCode
 - htmlElementName.className (then tab)
 - .className> ('>' continues as child of div)
 
+Perspective
+- Really cool, makes it pop off the page more or less
+
 Other
 - inherit on property to force inherit
 - :not sudo-class (`:not(:last-child)` = select everything except last child)
 - Selectors: grab everything that starts with (^), contains (*), or ends with ($)
+- '>' direct children
+- '*' all children
