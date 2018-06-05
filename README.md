@@ -1,4 +1,6 @@
-# CSS-SCSS
+# Advanced CSS-SCSS
+
+Udemy course: https://www.udemy.com/advanced-css-and-sass/
 
 ## Notes
 
