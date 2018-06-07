@@ -82,8 +82,10 @@ Emmet extension VSCode
 Other
 - inherit on property to force inherit
 - :not sudo-class (`:not(:last-child)` = select everything except last child)
-- Selectors: grab everything that starts with (^), contains (*), or ends with ($)
-- '>' direct children
-- '*' all children
+- Selectors:
+    - grab everything that starts with (^), contains (*), or ends with ($)
+    - '>' direct children
+    - '*' all children
+    - '+' adjacent sybling
 - Perspective: Really cool, makes it pop off the page more or less
 - coverr.co - free background videos for websites
