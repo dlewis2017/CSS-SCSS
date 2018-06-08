@@ -87,5 +87,8 @@ Other
     - '>' direct children
     - '*' all children
     - '+' adjacent sybling
+    - '~' general sybling
 - Perspective: Really cool, makes it pop off the page more or less
 - coverr.co - free background videos for websites
+- easings.net for bezier curves
+- Use pixels when base is rem if you never want that to be adjusted if the base is as well
