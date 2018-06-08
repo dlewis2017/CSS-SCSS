@@ -92,3 +92,5 @@ Other
 - coverr.co - free background videos for websites
 - easings.net for bezier curves
 - Use pixels when base is rem if you never want that to be adjusted if the base is as well
+- Use table and table cell for creating boxes side by side with same height and for vertically centering
+- Use column in css for separting text into columns
