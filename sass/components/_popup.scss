@@ -10,6 +10,14 @@
     visibility: hidden;
     transition: all .3s;
 
+    // Graceful debredation
+    @supports (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px)) {
+        -webkit-backdrop-filter: blur(10px); // safari
+        backdrop-filter: blur(10px); // firefox, not for chrome
+        background-color: rgba($color-black, .3);
+    }
+
+
     &:target {
         opacity: 1;
         visibility: visible;

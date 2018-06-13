@@ -8,7 +8,7 @@ Udemy course: https://www.udemy.com/advanced-css-and-sass/
 
 ## Run
 
-- Navigate to home directory where main.scss is and run `live-server`.
+- Navigate to home directory where main.scss is and run `npm run start`.
 
 ## Notes
 
@@ -94,6 +94,16 @@ Udemy course: https://www.udemy.com/advanced-css-and-sass/
     - density switching (pixel switching)
     - art directino (different picture)
 
+### Graceful Degredation
+- Use @supports 
+- Test in all browsers, come features in chrome aren't supported in Safari or firefox
+
+### Build process
+- Compile Sass
+- Concate all css files (imports and self made)
+- Prefixing for older versions
+- Compress to one file
+
 ### Other
 - inherit on property to force inherit
 - :not sudo-class (`:not(:last-child)` = select everything except last child)
@@ -109,6 +119,9 @@ Udemy course: https://www.udemy.com/advanced-css-and-sass/
 - Use pixels when base is rem if you never want that to be adjusted if the base is as well
 - Use table and table cell for creating boxes side by side with same height and for vertically centering
 - Use column in css for separting text into columns
+- original scripts in package.json file:
+    - "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    - "watch:sass": "nodemon -e scss -x \"npm run compile:sass\""
 
 ### Things Todo
 - Adjust popup when decreased device size
