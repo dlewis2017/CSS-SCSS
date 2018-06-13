@@ -12,21 +12,21 @@ Udemy course: https://www.udemy.com/advanced-css-and-sass/
 
 ## Notes
 
-Responsive Design
+### Responsive Design
 - Fluid layout
 - media queries
 - responsive images
 - correct units
 - desktop-first vs mobile-first
 
-Maintainable and Scalable Code
+### Maintainable and Scalable Code
 - clean
 - easy to understand
 - growth
 - reusable
 - how to organize files, name classes, and structure HTML
 
-Web Performance
+### Web Performance
 - less HTTP requests
 - Less code
 - compress code
@@ -34,30 +34,30 @@ Web Performance
 - less images
 - compress images
 
-OnLoad
+### OnLoad
 - Load HTML --> Parse HTML --> DOM
 - (from Parse HTML) Load CSS --> Parse CSS --> CSSOM
 - (from DOM and CSSOM) Render tree --> website render
 
-Cascade 
+### Cascade 
 - Resolving combined CSS that is conflicted
 - Sources: Author (coder), User, Browser
 - Importance: User `!important`, Author `!important`, Author declaration, User declaration, Default browser
 - Specificity (per css blocks that effect the same element in DOM): inline, ID, class, elements (0,0,0,0) Highest number wins left to right
 - When using 3rd party stylesheets, include your import last to ensure your changes take effect
 
-Standard font-size
+### Standard font-size
 - Use for scalability with mobile and standard (no need for media queries)
 - Divide default html font-size (if px) by 10 to get rem
 - So if we set `font-size: 10px;` in html tag then 10px = 1rem
 - `font-size: 62.5%` in html tag then 62.5% = 10px (.625/16 = 10px)
 
-<strong>B</strong>lock <strong>E</strong>lement <strong>M</strong>odified
+### <strong>B</strong>lock <strong>E</strong>lement <strong>M</strong>odified
 - Block: Standalone component
 - Element: part of block
 - Modifier: different version of block or element (e.g. --round)
 
-Sass
+### Sass
 - Compiles css
 - Variables, nesting, operators, partials and imports, mixins, functions, extends, control directives
 - Sass different than SCSS (preserves original css syntax)
@@ -70,16 +70,31 @@ Sass
     - @extend %placeholder
     - Extend takes selectors and combines them (same inner code), mixin adds code to selectors
 
-Layouts
+### Layouts
 - Float, flexbox, css grid
 
-Emmet extension VSCode
+### Emmet extension VSCode
 - creates html easily
 - .className (then tab)
 - htmlElementName.className (then tab)
 - .className> ('>' continues as child of div)
 
-Other
+### Media Queries
+- design for one first
+- Can pass blocks of code into mixins
+- Use em's for measurement; 1em = 16px
+- ORDER: Base + typograph > general layout + grid > page layout > components
+- set different layouts, names, and size first
+- sizzy.co to test different devices
+
+### Responsive Images
+- adjust image resolution so phones download a 200KB image instead of the 1MB picture for web
+- when to use responsive images:
+    - resolution switching
+    - density switching (pixel switching)
+    - art directino (different picture)
+
+### Other
 - inherit on property to force inherit
 - :not sudo-class (`:not(:last-child)` = select everything except last child)
 - Selectors:
@@ -94,3 +109,8 @@ Other
 - Use pixels when base is rem if you never want that to be adjusted if the base is as well
 - Use table and table cell for creating boxes side by side with same height and for vertically centering
 - Use column in css for separting text into columns
+
+### Things Todo
+- Adjust popup when decreased device size
+- Test Density and Resolution Switching on all other images
+
